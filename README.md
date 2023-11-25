@@ -36,3 +36,10 @@ Following -D flags are not working currently
 
 	-DVSXU_DEBUG=1             // compile error
 	-DENGINE_SCRIPTING=0       // "file not found" error
+
+## Current issues
+
+- [x] generate build files with cmake
+- [x] compile software with cmake
+- [x] execute software on linux
+- [ ] all shared assets are found at runtime
