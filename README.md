@@ -1,45 +1,51 @@
 # vslzr - Real-time music visualizer
 
-## VSXu by vovoid
+## VSXu by Vovoid
 
-As of November 2023, the [vovoid's VSXu repository](https://github.com/vovoid/vsxu) lacks the *[cal3d](https://github.com/mp3butcher/Cal3D) git sub module* and because I am new to C++ and all this stuff, my limited knowledge and understanding, I was not able to compile it!
+As of November 2023, the [vovoid's VSXu repository](https://github.com/vovoid/vsxu) lacks the *[cal3d](https://github.com/mp3butcher/Cal3D) git sub module* and because I am new to C++ and all this stuff, and my knowledge and understanding is limited, I was not able to compile it!
 
-The Slackware distribution offers a [tarball of VSXu](https://slackbuilds.org/repository/15.0/graphics/vsxu/?search=vsxu) containing all the necessary modules to build VSXu.
+But the Slackware distribution offers a [tarball of VSXu](https://slackbuilds.org/repository/15.0/graphics/vsxu/?search=vsxu) containing all the necessary modules to build VSXu.
 
 Unfortunately this also did not compile first - hence I started digging deeper. 
 
+This repository is my attempt to make **VSXu compile & run under linux** again. At the moment I do not take Windows or MacOS into account, because I do not have any of those systems.
+
 ## vslzr
 
-This repository is my attempt to make VSXu compile & run under linux again. At the moment I do not take Windows or MacOS into account.
+In the long run, I would like to further develop *this fabulous software* to support my specific needs for real-time audio visualization. To differentiate myself from the [VZX Creative](https://store.steampowered.com/app/1740670/VZX_Creative/) product line, which now seems to be closed source, I have already chosen a different name for my experiments.
 
-In the long run, I really would like to develop this fabulous software further to support my specific needs for audio visualization in real-time. To delimit from the VSXu product-line, which seems to be closed source now, I have chosen a different name for my experiments already.
-
-The original *VSXu README.md* file is renamed to [vovoid.md](./vovoid.md).
+Please find the original *VSXu README.md* file renamed to [vovoid.md](./vovoid.md) next to this README file.
 
 ## Compile & Run
 
-The documentation of VSXu claims cmake support. Indeed there is some sort of cmake available, but again I was not able to make it work, due to my limited understanding of cmake and the C++ build process in general, I guess.
+The documentation of VSXu claims cmake support. Indeed there is some sort of cmake available, but again I was not able to get it working just by using cmake. Due to my limited understanding of cmake and the C++ build process in general, I thought `cmake --build` could also be used - how naive.
 
-For now I want to compile and run the Artiste program only. First execute the following command
+At the moment I am following the procedure of the [arch linux package vsxu 0.6.3-1](https://aur.archlinux.org/packages/vsxu) by [Llewelyn Trahaearn](https://github.com/WoefulDerelict) to **compile & run VSXu** under Linux:
 
-    $ cmake -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -S. -B./build -G Ninja 
+1. Configure and build the make files:
+   
+       mkdir build
+       cd build
+       cmake .. -DCMAKE_INSTALL_PREFIX="~/bin/vsxu_0.6.3.0" -DOpenGL_GL_PREFERENCE=GLVND
 
- and then 
+ 2. Then build and install the software from inside the `build` folder:
 
-    $ cmake --build ./build --config Debug --target all --
+        make
+        make install
 
-and finally run VSXu Artiste
+3. Finally run e.g. *VSXu Artiste*
 
-    $ ./build/programs/artiste/vsxu_artiste
+       LD_LIBRARY_PATH=~/bin/vsxu_0.6.3.0/lib ~/bin/vsxu_0.6.3.0/bin/vsxu_artiste
 
-Following -D flags are not working currently
+Unfortunately the following -D flags are not working currently:
 
 	-DVSXU_DEBUG=1             // compile error
 	-DENGINE_SCRIPTING=0       // "file not found" error
 
-## Current issues
+## Current tasks
 
 - [x] generate build files with cmake
-- [x] compile software with cmake
+- [x] compile and install software with make
 - [x] execute software on linux
-- [ ] all shared assets are found at runtime
+- [x] all shared assets are found at runtime
+- [ ] fix direction of up and down navigation
