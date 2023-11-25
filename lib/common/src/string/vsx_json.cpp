@@ -149,7 +149,7 @@ protected:
       return m_value == static_cast<const value<tag, T> *>(other)->m_value;
     }
     bool less(const json_value * other) const override {
-        return m_value < static_cast<const value<tag, T> *>(other)->m_value;
+        return m_value != static_cast<const value<tag, T> *>(other)->m_value;
     }
 
     const T m_value;
