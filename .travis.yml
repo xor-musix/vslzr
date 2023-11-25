@@ -1,0 +1,14 @@
+branches:
+  only:
+    - master
+
+language: cpp
+compiler:
+  - gcc
+
+dist: xenial
+
+install:
+    - sudo apt-get install libglew-dev libpng-dev libjpeg-dev libpulse-dev libopenexr-dev libxrandr-dev libfreetype6-dev libsdl2-dev libegl1-mesa-dev libgles2-mesa-dev build-essential cmake
+
+script: cd appimage; bash ./create_appimage.sh
