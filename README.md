@@ -1,56 +1,38 @@
-Vovoid VSXu [![Build Status](https://travis-ci.org/vovoid/vsxu.svg?branch=master)](https://travis-ci.org/vovoid/vsxu)
-===========
-©2003-2015 Vovoid Media Technologies AB, Sweden
+# vslzr - Real-time music visualizer
 
-http://www.vsxu.com
+## VSXu by vovoid
 
-http://www.vovoid.com
+As of November 2023, the [vovoid's VSXu repository](https://github.com/vovoid/vsxu) lacks the *[cal3d](https://github.com/mp3butcher/Cal3D) git sub module* and because I am new to C++ and all this stuff, my limited knowledge and understanding, I was not able to compile it!
 
+The Slackware distribution offers a [tarball of VSXu](https://slackbuilds.org/repository/15.0/graphics/vsxu/?search=vsxu) containing all the necessary modules to build VSXu.
 
+Unfortunately this also did not compile first - hence I started digging deeper. 
 
-VSXu (VSX Ultra) is an OpenGL-based (hardware-accelerated), 
-modular programming environment with its main purpose to 
-visualize music and create real time graphic effects.
+## vslzr
 
-The aim is to bridge the gap between programmer 
-and artist and enabling acreative and inspiring 
-environment to work in for all parties involved.
+This repository is my attempt to make VSXu compile & run under linux again. At the moment I do not take Windows or MacOS into account.
 
-VSXu is built on a modular plug-in-based architecture 
-so anyone can extend it and or make visualization 
-presets ("visuals" or "states").
+In the long run, I really would like to develop this fabulous software further to support my specific needs for audio visualization in real-time. To delimit from the VSXu product-line, which seems to be closed source now, I have chosen a different name for my experiments already.
 
+The original *VSXu README.md* file is renamed to [vovoid.md](./vovoid.md).
 
-How do i get it?
------------------
+## Compile & Run
 
-Compilation Instructions for a basic version of VSXu Ubuntu/Debian:
+The documentation of VSXu claims cmake support. Indeed there is some sort of cmake available, but again I was not able to make it work, due to my limited understanding of cmake and the C++ build process in general, I guess.
 
-Make sure you have met the build dependencies:
+For now I want to compile and run the Artiste program only. First execute the following command
 
-      sudo apt-get install libglew-dev libpng-dev libjpeg-dev libpulse-dev libopenexr-dev libxrandr-dev libfreetype6-dev libsdl2-dev libegl1-mesa-dev libgles2-mesa-dev build-essential cmake
+    $ cmake -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -S. -B./build -G Ninja 
 
-Optional dependencies:
+ and then 
 
-      sudo apt-get install libopencv-dev
+    $ cmake --build ./build --config Debug --target all --
 
-Get the VSXu Source from github via ssh:
+and finally run VSXu Artiste
 
-      git clone git@github.com:vovoid/vsxu.git
-      
-Get the VSXu Source from github via https:
+    $ ./build/programs/artiste/vsxu_artiste
 
-      git clone https://github.com/vovoid/vsxu.git
+Following -D flags are not working currently
 
-Build it:
-
-      cd vsxu
-      git submodule update --init
-      mkdir build
-      cd build
-      cmake -DCMAKE_INSTALL_PREFIX=/usr ..
-      make
-      make install
-
-For more advanced build instructions (and for the instructions for Windows users)
-visit http://www.vsxu.com/development/compiling-from-source
+	-DVSXU_DEBUG=1             // compile error
+	-DENGINE_SCRIPTING=0       // "file not found" error
