@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="VSXu" targetName="selectors" />
+      <config projectName="VSXu" targetName="bitmap.generators" />
+      <config projectName="VSXu" targetName="outputs.screen_opengl" />
+      <config projectName="VSXu" targetName="render.opengl" />
+      <config projectName="VSXu" targetName="vsxbt" />
+      <config projectName="VSXu" targetName="render.text" />
+      <config projectName="VSXu" targetName="test_mmap" />
+      <config projectName="VSXu" targetName="particlesystem.modifiers" />
+      <config projectName="VSXu" targetName="sound.rtaudio" />
+      <config projectName="VSXu" targetName="test_string" />
+      <config projectName="VSXu" targetName="_deprecated" />
+      <config projectName="VSXu" targetName="render.basic" />
+      <config projectName="VSXu" targetName="vsxl" />
+      <config projectName="VSXu" targetName="string" />
+      <config projectName="VSXu" targetName="uninstall" />
+      <config projectName="VSXu" targetName="bitmap.loaders" />
+      <config projectName="VSXu" targetName="vsxu_player" />
+      <config projectName="VSXu" targetName="test_json" />
+      <config projectName="VSXu" targetName="texture" />
+      <config projectName="VSXu" targetName="test_vsx_filesystem_tree_writer" />
+      <config projectName="VSXu" targetName="test_fread" />
+      <config projectName="VSXu" targetName="math.oscillators" />
+      <config projectName="VSXu" targetName="system" />
+      <config projectName="VSXu" targetName="test_vsx_perf" />
+      <config projectName="VSXu" targetName="test_vsx_input_event_queue" />
+      <config projectName="VSXu" targetName="vsx_application" />
+      <config projectName="VSXu" targetName="vsx_widget" />
+      <config projectName="VSXu" targetName="test_compression_lzham" />
+      <config projectName="VSXu" targetName="particlesystem.render" />
+      <config projectName="VSXu" targetName="vsxu_launcher" />
+      <config projectName="VSXu" targetName="vsxu_profiler" />
+      <config projectName="VSXu" targetName="test_input" />
+      <config projectName="VSXu" targetName="test_filesystem_archive_vsxz" />
+      <config projectName="VSXu" targetName="test_cpu_info" />
+      <config projectName="VSXu" targetName="test_thread_pool" />
+      <config projectName="VSXu" targetName="math" />
+      <config projectName="VSXu" targetName="vsxz" />
+      <config projectName="VSXu" targetName="vsx_common" />
+      <config projectName="VSXu" targetName="test_filesystem_archive_vsx" />
+      <config projectName="VSXu" targetName="vsxu_artiste" />
+      <config projectName="VSXu" targetName="vsx_engine" />
+      <config projectName="VSXu" targetName="mesh.render" />
+      <config projectName="VSXu" targetName="obj2vxm" />
+      <config projectName="VSXu" targetName="test_vsx_profiler" />
+      <config projectName="VSXu" targetName="render.gravity_lines" />
+      <config projectName="VSXu" targetName="test_compression_lzma_old" />
+      <config projectName="VSXu" targetName="render.glsl" />
+      <config projectName="VSXu" targetName="raw2wav" />
+      <config projectName="VSXu" targetName="mesh.generators" />
+      <config projectName="VSXu" targetName="bitmap.modifiers" />
+      <config projectName="VSXu" targetName="test_compression_lzma" />
+      <config projectName="VSXu" targetName="vsx_engine_graphics" />
+      <config projectName="VSXu" targetName="test_command_list" />
+      <config projectName="VSXu" targetName="vsx_compression" />
+      <config projectName="VSXu" targetName="vsxu_server" />
+      <config projectName="VSXu" targetName="mesh.modifiers" />
+      <config projectName="VSXu" targetName="mesh.importers" />
+      <config projectName="VSXu" targetName="particlesystem.generators" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Build" ENABLED="true" GENERATION_DIR="./build" TOOLCHAIN_NAME="Default" GENERATION_OPTIONS="-DCMAKE_INSTALL_PREFIX=&quot;~/bin/vsxu&quot; -DOpenGL_GL_PREFERENCE=GLVND" NO_GENERATOR="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1d8e03a-5c0e-433c-97a2-056b519b9aa7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Build" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3" />
+    <option name="productBranch" value="Nova" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YgjZdtxn4qUThShYSxWBM5rtKV" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake Application.vsxu_artiste.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/run/media/mnemonic/Workspace/repos/xor-musix/vslzr&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="CMake Application.vsxu_artiste">
+    <configuration name="_deprecated" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="_deprecated" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bitmap.generators" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="bitmap.generators" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bitmap.loaders" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="bitmap.loaders" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bitmap.modifiers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="bitmap.modifiers" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="math" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="math" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="math.oscillators" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="math.oscillators" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mesh.generators" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="mesh.generators" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mesh.importers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="mesh.importers" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mesh.modifiers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="mesh.modifiers" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mesh.render" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="mesh.render" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="obj2vxm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="obj2vxm" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="obj2vxm">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="outputs.screen_opengl" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="outputs.screen_opengl" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="particlesystem.generators" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="particlesystem.generators" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="particlesystem.modifiers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="particlesystem.modifiers" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="particlesystem.render" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="particlesystem.render" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="raw2wav" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="raw2wav" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="raw2wav">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="render.basic" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="render.basic" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="render.glsl" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="render.glsl" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="render.gravity_lines" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="render.gravity_lines" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="render.opengl" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="render.opengl" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="render.text" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="render.text" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="selectors" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="selectors" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sound.rtaudio" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="sound.rtaudio" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="string" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="string" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="system" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="system" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_command_list" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_command_list" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_command_list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_compression_lzham" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_compression_lzham" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_compression_lzham">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_compression_lzma" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_compression_lzma" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_compression_lzma">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_compression_lzma_old" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_compression_lzma_old" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_compression_lzma_old">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_cpu_info" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_cpu_info" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_cpu_info">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_filesystem_archive_vsx" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_filesystem_archive_vsx" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_filesystem_archive_vsx">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_filesystem_archive_vsxz" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_filesystem_archive_vsxz" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_filesystem_archive_vsxz">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_fread" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_fread" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_fread">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_input" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_input" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_input">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_json" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_json" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_json">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_mmap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_mmap" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_mmap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_string" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_string" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_string">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_thread_pool" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_thread_pool" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_thread_pool">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_vsx_filesystem_tree_writer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_vsx_filesystem_tree_writer" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_vsx_filesystem_tree_writer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_vsx_input_event_queue" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_vsx_input_event_queue" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_vsx_input_event_queue">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_vsx_perf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_vsx_perf" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_vsx_perf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_vsx_profiler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="test_vsx_profiler" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="test_vsx_profiler">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="texture" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="texture" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="uninstall" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsx_application" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsx_application" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsx_common" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsx_common" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsx_compression" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsx_compression" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsx_engine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsx_engine" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsx_engine_graphics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsx_engine_graphics" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsx_widget" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsx_widget" CONFIG_NAME="Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsxbt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsxbt" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="vsxbt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsxl" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsxl" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="vsxl">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsxu_artiste" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsx_application" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="vsxu_artiste">
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="./inst/lib" />
+      </envs>
+      <method v="2">
+        <option name="CMake.Explicit.Target" explicitTargetName="all" />
+      </method>
+    </configuration>
+    <configuration name="vsxu_launcher" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsxu_launcher" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="vsxu_launcher">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsxu_player" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsxu_player" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="vsxu_player">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsxu_profiler" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsxu_profiler" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="vsxu_profiler">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsxu_server" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsxu_server" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="vsxu_server">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vsxz" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VSXu" TARGET_NAME="vsxz" CONFIG_NAME="Build" RUN_TARGET_PROJECT_NAME="VSXu" RUN_TARGET_NAME="vsxz">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.uninstall" />
+      <item itemvalue="CMake Application.vsx_application" />
+      <item itemvalue="CMake Application.test_input" />
+      <item itemvalue="CMake Application.vsx_common" />
+      <item itemvalue="CMake Application.test_command_list" />
+      <item itemvalue="CMake Application.test_cpu_info" />
+      <item itemvalue="CMake Application.test_filesystem_archive_vsx" />
+      <item itemvalue="CMake Application.test_filesystem_archive_vsxz" />
+      <item itemvalue="CMake Application.test_fread" />
+      <item itemvalue="CMake Application.test_json" />
+      <item itemvalue="CMake Application.test_mmap" />
+      <item itemvalue="CMake Application.test_string" />
+      <item itemvalue="CMake Application.test_thread_pool" />
+      <item itemvalue="CMake Application.test_vsx_filesystem_tree_writer" />
+      <item itemvalue="CMake Application.test_vsx_input_event_queue" />
+      <item itemvalue="CMake Application.test_vsx_perf" />
+      <item itemvalue="CMake Application.vsx_compression" />
+      <item itemvalue="CMake Application.test_compression_lzham" />
+      <item itemvalue="CMake Application.test_compression_lzma" />
+      <item itemvalue="CMake Application.test_compression_lzma_old" />
+      <item itemvalue="CMake Application.vsx_engine" />
+      <item itemvalue="CMake Application.vsx_engine_graphics" />
+      <item itemvalue="CMake Application.vsx_widget" />
+      <item itemvalue="CMake Application._deprecated" />
+      <item itemvalue="CMake Application.bitmap.generators" />
+      <item itemvalue="CMake Application.bitmap.loaders" />
+      <item itemvalue="CMake Application.bitmap.modifiers" />
+      <item itemvalue="CMake Application.math.oscillators" />
+      <item itemvalue="CMake Application.math" />
+      <item itemvalue="CMake Application.mesh.generators" />
+      <item itemvalue="CMake Application.mesh.importers" />
+      <item itemvalue="CMake Application.mesh.modifiers" />
+      <item itemvalue="CMake Application.mesh.render" />
+      <item itemvalue="CMake Application.outputs.screen_opengl" />
+      <item itemvalue="CMake Application.particlesystem.generators" />
+      <item itemvalue="CMake Application.particlesystem.modifiers" />
+      <item itemvalue="CMake Application.particlesystem.render" />
+      <item itemvalue="CMake Application.render.basic" />
+      <item itemvalue="CMake Application.render.glsl" />
+      <item itemvalue="CMake Application.render.gravity_lines" />
+      <item itemvalue="CMake Application.render.opengl" />
+      <item itemvalue="CMake Application.render.text" />
+      <item itemvalue="CMake Application.selectors" />
+      <item itemvalue="CMake Application.sound.rtaudio" />
+      <item itemvalue="CMake Application.string" />
+      <item itemvalue="CMake Application.system" />
+      <item itemvalue="CMake Application.texture" />
+      <item itemvalue="CMake Application.vsxu_artiste" />
+      <item itemvalue="CMake Application.vsxu_launcher" />
+      <item itemvalue="CMake Application.vsxu_player" />
+      <item itemvalue="CMake Application.vsxu_profiler" />
+      <item itemvalue="CMake Application.test_vsx_profiler" />
+      <item itemvalue="CMake Application.vsxu_server" />
+      <item itemvalue="CMake Application.obj2vxm" />
+      <item itemvalue="CMake Application.raw2wav" />
+      <item itemvalue="CMake Application.vsxbt" />
+      <item itemvalue="CMake Application.vsxl" />
+      <item itemvalue="CMake Application.vsxz" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1d8e03a-5c0e-433c-97a2-056b519b9aa7" name="Changes" comment="" />
+      <created>1700954173783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700954173783</updated>
+      <workItem from="1700954174792" duration="1429000" />
+      <workItem from="1701015589623" duration="10187000" />
+      <workItem from="1701029206181" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
