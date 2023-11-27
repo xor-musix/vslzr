@@ -48,5 +48,6 @@ Unfortunately the following -D flags are not working currently:
 - [x] compile and install software with make
 - [x] execute software on linux
 - [x] all shared assets are found at runtime
-- [x] compile on clean clone - missing files
+- [x] compile on fresh clone - missing files
+- [ ] compile and run with CLion
 - [ ] fix direction of up and down navigation
