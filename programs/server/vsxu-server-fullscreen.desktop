@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=VSXu server [fullscreen]
+GenericName=Real Time OpenGL Graphics Server
+Comment=VSXu Server - Perform Real Time Graphics
+Exec=/usr/bin/env LD_LIBRARY_PATH=/home/mnemonic/bin/vsxupulse/lib /home/mnemonic/bin/vsxupulse/bin/vsxu_server -f
+Icon=vsxu
+Type=Application
+Categories=Graphics;
+StartupNotify=false
+NoDisplay=false

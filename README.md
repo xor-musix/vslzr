@@ -23,7 +23,7 @@ The documentation of VSXu claims cmake support. Indeed there is some sort of cma
 At the moment I am following the procedure of the [arch linux package vsxu 0.6.3-1](https://aur.archlinux.org/packages/vsxu) by [Llewelyn Trahaearn](https://github.com/WoefulDerelict) to **compile & run VSXu** under Linux:
 
 1. Configure and build the make files:
-   
+
        mkdir build
        cd build
        cmake .. -DCMAKE_INSTALL_PREFIX="~/bin/vsxu_0.6.3.0" -DOpenGL_GL_PREFERENCE=GLVND
@@ -48,4 +48,5 @@ Unfortunately the following -D flags are not working currently:
 - [x] compile and install software with make
 - [x] execute software on linux
 - [x] all shared assets are found at runtime
+- [x] compile on clean clone - missing files
 - [ ] fix direction of up and down navigation
